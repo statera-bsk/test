@@ -134,11 +134,6 @@
         <name>DataCategoryGroup</name>
     </types>
     <types>
-        <members>Project_Management_Folder</members>
-        <members>Project_Management_Folder/Starter_Project_LPM1a.xml</members>
-        <name>Document</name>
-    </types>
-    <types>
         <members>Case.Standard</members>
         <name>EscalationRule</name>
     </types>
