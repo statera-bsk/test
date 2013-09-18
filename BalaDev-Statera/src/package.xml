@@ -9,10 +9,6 @@
         <name>AccountOwnerSharingRule</name>
     </types>
     <types>
-        <members>Project_Status_Analytic_Snapshot</members>
-        <name>AnalyticSnapshot</name>
-    </types>
-    <types>
         <members>*</members>
         <name>ApexClass</name>
     </types>
