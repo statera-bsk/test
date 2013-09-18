@@ -43,10 +43,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>CampaignCriteriaBasedSharingRule</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CampaignOwnerSharingRule</name>
     </types>
     <types>
