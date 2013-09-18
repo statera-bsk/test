@@ -51,10 +51,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>Community</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ContactCriteriaBasedSharingRule</name>
     </types>
     <types>
