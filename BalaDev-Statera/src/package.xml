@@ -2,10 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
-        <name>AccountCriteriaBasedSharingRule</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>AccountOwnerSharingRule</name>
     </types>
     <types>
@@ -124,7 +120,6 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
-
     <types>
         <members>*</members>
         <name>DataCategoryGroup</name>
