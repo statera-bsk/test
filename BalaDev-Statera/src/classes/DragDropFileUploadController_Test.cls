@@ -2,10 +2,10 @@
 private class DragDropFileUploadController_Test {
 
     static testMethod void unitTest() {
-    	Account acc = new Account();
-    	acc.Name = 'Testing';
-    	insert acc;
-    	
+        Account acc = new Account();
+        acc.Name = 'Testing for a testing';
+        insert acc;
+        
         DragDropFileUploadController c = new DragDropFileUploadController(new ApexPages.StandardController(acc));
         String error = DragDropFileUploadController.saveFile('filename',null,null);
         System.assert(error!=null,'Error should have been thrown');
