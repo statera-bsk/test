@@ -137,7 +137,7 @@
 		
 		function ParseFile(file) {
 			//console.debug(file);
-			filesToUpload.push(new uploadingFile(file,'Uploading 123...'));
+			filesToUpload.push(new uploadingFile(file,'Uploading 567...'));
 		}
 		
 		function checkIfCompleted()
@@ -149,7 +149,7 @@
 		    for(var i = 0; i < filesToUpload.length; i++)
 			{
 				output.html(output.html()+'<b>'+filesToUpload[i].file.name+'</b> ['+(filesToUpload[i].file.size/1024).toFixed(1)+' KB]'+' : '+filesToUpload[i].status+'<br/>');
-				if(filesToUpload[i].status == 'Uploading 123...') allUploaded &= false;
+				if(filesToUpload[i].status == 'Uploading 567...') allUploaded &= false;
 			}
 		    if(allUploaded) Init();
 		}
